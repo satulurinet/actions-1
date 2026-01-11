@@ -1,7 +1,8 @@
 name: Generate ASCII Artwork with full steps
 
 on:
-  push
+  # push:
+  workflow_dispatch:
 
 jobs:
   ascii_job:
@@ -18,5 +19,6 @@ jobs:
         chmod +x ascii-script.sh
         ./ascii-script.sh
     
+
 
 
