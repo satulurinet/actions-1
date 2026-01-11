@@ -1,6 +1,6 @@
 name: Matrix Configuration 
 on:
-  push:
+  # push:
   workflow_dispatch:
 jobs:
   deploy:
