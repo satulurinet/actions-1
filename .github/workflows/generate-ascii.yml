@@ -1,7 +1,8 @@
 name: Generate ASCII Artwork
 
 on:
-  push
+  # push:
+  workflow_dispatch:
 
 jobs:
   ascii_job:
@@ -25,5 +26,6 @@ jobs:
     - name: List Repo Files
       run: ls -ltra
     
+
 
 
